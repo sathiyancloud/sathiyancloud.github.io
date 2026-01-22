@@ -1,0 +1,23 @@
+title: SathiyanCloud
+description: Building a clear learning bridge from fundamentals to real-world Cloud & DevOps for students starting their careers in IT.
+url: "https://sathiyancloud.github.io"
+baseurl: "/SathiyanCloud"
+author: Sathiyan
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Theme (using minima as base, but we override with custom CSS)
+theme: minima
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
