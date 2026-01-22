@@ -9,9 +9,7 @@ Have a question about your learning path? Want to suggest a topic? I'd love to h
 
 ## Get in Touch
 
-<a href="https://forms.google.com/your-form-link" class="btn">Send a Message</a>
-
-*(Replace this link with your actual Google Form URL)*
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbcg6miSgP6Q5Cyij8lTRtuQudMujKfeH0oxFwqMdWYtm1jg/viewform?usp=dialog" class="btn">Send a Message</a>
 
 ## What to Expect
 
