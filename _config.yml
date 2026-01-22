@@ -1,7 +1,7 @@
 title: SathiyanCloud
 description: Building a clear learning bridge from fundamentals to real-world Cloud & DevOps for students starting their careers in IT.
 url: "https://sathiyancloud.github.io"
-baseurl: "/SathiyanCloud"
+baseurl: "/"
 author: Sathiyan
 
 # Build settings
