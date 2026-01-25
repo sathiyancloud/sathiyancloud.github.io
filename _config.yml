@@ -21,3 +21,5 @@ navigation:
     url: /about
   - title: Contact
     url: /contact
+  - title: Session
+    url: /session
