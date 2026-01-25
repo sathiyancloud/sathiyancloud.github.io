@@ -42,15 +42,15 @@ This form is for students who are genuinely interested in learning Cloud / DevOp
 
 - **GitHub Student Developer Pack**  
   Free tools and credits for students  
-  https://education.github.com/pack
+  [https://education.github.com/pack](https://education.github.com/pack)
 
 - **AWS Free Tier**  
   Practice cloud basics with free resources  
-  https://aws.amazon.com/free
+  [https://aws.amazon.com/free](https://aws.amazon.com/free)
 
 - **LinkedIn**  
   Build your professional profile and learn from industry posts  
-  https://www.linkedin.com
+  [https://www.linkedin.com](https://www.linkedin.com)
 
 ---
 
