@@ -24,7 +24,7 @@ Please do not forward the links outside your college group.
 
 Please share your honest feedback about the session.
 
-[Submit feedback](LINK_TO_FEEDBACK_FORM)
+[Submit feedback](https://docs.google.com/forms/d/e/1FAIpQLSdq_ay5dhKMEcoMcoLNAJYmxcezUSsZOfMgK6lBDIKJuubmBA/viewform?usp=publish-editor)
 
 ---
 
