@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Docker for beginners: images vs containers, Dockerfile, build and run, and why containers matter for Cloud &amp; DevOps.">
   <title>Docker in one evening · sathiyancloud</title>
+  <meta name="theme-color" content="#090807">
+  <link rel="canonical" href="https://www.sathiyancloud.in/blog/docker-in-one-evening/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
     (function () {
@@ -20,12 +21,11 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="bg-lines" aria-hidden="true"></div>
-  <div class="blob blob--a" aria-hidden="true"></div>
-  <div class="blob blob--b" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-    <div class="container site-header__inner">
+    <div class="shell site-header__inner">
       <a class="brand" href="/">
         <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
         <span class="brand__text">
@@ -50,14 +50,15 @@
     </div>
   </header>
 
-  <main id="main" class="page">
-    <article class="container prose">
-      <header class="article-head">
+  <main id="main" class="page page--post">
+    <header class="article-cover">
+      <div class="shell">
         <p class="post-meta">March 29, 2026 · Sathiyan</p>
         <h1>Docker in one evening (without the hype)</h1>
         <p class="subtitle">A container packages your app and its dependencies—predictably</p>
-      </header>
-
+      </div>
+    </header>
+    <article class="shell prose article-content">
       <p><strong>Docker</strong> helps you package an application so it runs <strong>the same way</strong> on your laptop, a teammate’s laptop, and (later) a server—because the package includes dependencies and runtime assumptions.</p>
 
       <h2>Words that confuse beginners (made simple)</h2>
@@ -92,12 +93,12 @@ docker run --rm my-first</code></pre>
 
       <p><em>Next step: containerize a tiny static website or a one-file Python/Node app and run it locally.</em></p>
 
-      <a class="back" href="/blog/">← Back to blog</a>
+      <a class="back" href="/blog/">← Back to journal</a>
     </article>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer__grid">
+    <div class="shell footer__grid">
       <div>
         <strong>sathiyancloud</strong>
         <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>

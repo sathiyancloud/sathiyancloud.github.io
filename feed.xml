@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>sathiyancloud — Classroom to Cloud</title>
-  <link href="https://sathiyancloud.github.io/feed.xml" rel="self"/>
-  <link href="https://sathiyancloud.github.io/"/>
+  <link href="https://www.sathiyancloud.in/feed.xml" rel="self"/>
+  <link href="https://www.sathiyancloud.in/"/>
   <updated>2026-04-05T00:00:00Z</updated>
-  <id>https://sathiyancloud.github.io/feed.xml</id>
+  <id>https://www.sathiyancloud.in/feed.xml</id>
   <author><name>Sathiyan</name></author>
 
   <entry>
     <title>Networking basics every cloud learner should know</title>
-    <link href="https://sathiyancloud.github.io/blog/networking-basics/"/>
-    <id>https://sathiyancloud.github.io/blog/networking-basics/</id>
+    <link href="https://www.sathiyancloud.in/blog/networking-basics/"/>
+    <id>https://www.sathiyancloud.in/blog/networking-basics/</id>
     <updated>2026-04-05T00:00:00Z</updated>
     <summary>IP, DNS, ports, TCP vs UDP, SSH—enough vocabulary to debug real issues.</summary>
   </entry>
   <entry>
     <title>Docker in one evening (without the hype)</title>
-    <link href="https://sathiyancloud.github.io/blog/docker-in-one-evening/"/>
-    <id>https://sathiyancloud.github.io/blog/docker-in-one-evening/</id>
+    <link href="https://www.sathiyancloud.in/blog/docker-in-one-evening/"/>
+    <id>https://www.sathiyancloud.in/blog/docker-in-one-evening/</id>
     <updated>2026-03-29T00:00:00Z</updated>
     <summary>Images, containers, Dockerfile—your first build and run.</summary>
   </entry>
   <entry>
     <title>Git basics for students (the smallest useful slice)</title>
-    <link href="https://sathiyancloud.github.io/blog/git-basics-for-students/"/>
-    <id>https://sathiyancloud.github.io/blog/git-basics-for-students/</id>
+    <link href="https://www.sathiyancloud.in/blog/git-basics-for-students/"/>
+    <id>https://www.sathiyancloud.in/blog/git-basics-for-students/</id>
     <updated>2026-03-22T00:00:00Z</updated>
     <summary>init, status, commit, push, pull—without drowning in commands.</summary>
   </entry>
   <entry>
     <title>What is “the cloud”? A simple mental model</title>
-    <link href="https://sathiyancloud.github.io/blog/what-is-the-cloud/"/>
-    <id>https://sathiyancloud.github.io/blog/what-is-the-cloud/</id>
+    <link href="https://www.sathiyancloud.in/blog/what-is-the-cloud/"/>
+    <id>https://www.sathiyancloud.in/blog/what-is-the-cloud/</id>
     <updated>2026-03-15T00:00:00Z</updated>
     <summary>On-demand resources, regions, shared responsibility, free-tier caution.</summary>
   </entry>
   <entry>
     <title>Linux terminal: ten commands to get comfortable</title>
-    <link href="https://sathiyancloud.github.io/blog/linux-terminal-ten-commands/"/>
-    <id>https://sathiyancloud.github.io/blog/linux-terminal-ten-commands/</id>
+    <link href="https://www.sathiyancloud.in/blog/linux-terminal-ten-commands/"/>
+    <id>https://www.sathiyancloud.in/blog/linux-terminal-ten-commands/</id>
     <updated>2026-03-08T00:00:00Z</updated>
     <summary>pwd, ls, cd, mkdir, and friends—muscle memory first.</summary>
   </entry>
   <entry>
     <title>Welcome to sathiyancloud</title>
-    <link href="https://sathiyancloud.github.io/blog/welcome/"/>
-    <id>https://sathiyancloud.github.io/blog/welcome/</id>
+    <link href="https://www.sathiyancloud.in/blog/welcome/"/>
+    <id>https://www.sathiyancloud.in/blog/welcome/</id>
     <updated>2025-01-22T00:00:00Z</updated>
     <summary>Fundamentals over hype—how we’ll pace the Classroom to Cloud journey.</summary>
   </entry>

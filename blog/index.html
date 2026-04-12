@@ -3,13 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blog — tutorials and notes for Cloud &amp; DevOps beginners. sathiyancloud.">
-  <meta name="theme-color" content="#0c0a09">
-  <title>Blog · sathiyancloud</title>
+  <meta name="description" content="Journal — Cloud &amp; DevOps notes for beginners. sathiyancloud.">
+  <meta name="theme-color" content="#090807">
+  <link rel="canonical" href="https://www.sathiyancloud.in/blog/">
+  <title>Journal · sathiyancloud</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
     (function () {
@@ -23,12 +21,11 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="bg-lines" aria-hidden="true"></div>
-  <div class="blob blob--a" aria-hidden="true"></div>
-  <div class="blob blob--b" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-    <div class="container site-header__inner">
+    <div class="shell site-header__inner">
       <a class="brand" href="/">
         <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
         <span class="brand__text">
@@ -53,59 +50,69 @@
     </div>
   </header>
 
-  <main id="main" class="page">
-    <div class="container prose">
-      <h1>Blog</h1>
-      <p>Practical notes for learners who are early in their Cloud &amp; DevOps journey—short reads, honest pacing.</p>
+  <main id="main">
+    <header class="blog-hero">
+      <div class="shell">
+        <p class="eyebrow">Journal</p>
+        <h1>Short reads. Honest pacing.</h1>
+        <p class="lede-blog">Notes for early Cloud &amp; DevOps learners—written to be useful, not to sound important.</p>
+      </div>
+    </header>
 
-      <ul class="post-list">
-        <li>
-          <p class="post-meta">April 5, 2026</p>
-          <h2><a href="/blog/networking-basics/">Networking basics every cloud learner should know</a></h2>
-          <p class="post-excerpt">IP, DNS, ports, SSH—enough vocabulary to debug real issues.</p>
-        </li>
-        <li>
-          <p class="post-meta">March 29, 2026</p>
-          <h2><a href="/blog/docker-in-one-evening/">Docker in one evening (without the hype)</a></h2>
-          <p class="post-excerpt">Images, containers, Dockerfile—your first build and run.</p>
-        </li>
-        <li>
-          <p class="post-meta">March 22, 2026</p>
-          <h2><a href="/blog/git-basics-for-students/">Git basics for students (the smallest useful slice)</a></h2>
-          <p class="post-excerpt">init, status, commit, push, pull—without drowning in commands.</p>
-        </li>
-        <li>
-          <p class="post-meta">March 15, 2026</p>
-          <h2><a href="/blog/what-is-the-cloud/">What is “the cloud”? A simple mental model</a></h2>
-          <p class="post-excerpt">On-demand resources, regions, shared responsibility, free-tier caution.</p>
-        </li>
-        <li>
-          <p class="post-meta">March 8, 2026</p>
-          <h2><a href="/blog/linux-terminal-ten-commands/">Linux terminal: ten commands to get comfortable</a></h2>
-          <p class="post-excerpt">pwd, ls, cd, mkdir, and friends—muscle memory first.</p>
-        </li>
-        <li>
-          <p class="post-meta">January 22, 2025</p>
-          <h2><a href="/blog/welcome/">Welcome to sathiyancloud</a></h2>
-          <p class="post-excerpt">Fundamentals over hype—how we’ll pace the Classroom to Cloud journey.</p>
-        </li>
-      </ul>
+    <div class="shell shell--wide">
+      <div class="bento">
+        <a class="bento__card bento__card--featured" href="/blog/networking-basics/">
+          <p class="bento__date">Apr 5, 2026</p>
+          <h2 class="bento__title">Networking basics every cloud learner should know</h2>
+          <p class="bento__excerpt">IP, DNS, ports, SSH—enough vocabulary to debug real issues instead of guessing.</p>
+        </a>
+
+        <a class="bento__card bento__card--side" href="/blog/docker-in-one-evening/">
+          <p class="bento__date">Mar 29, 2026</p>
+          <h2 class="bento__title">Docker in one evening</h2>
+          <p class="bento__excerpt">Images, containers, Dockerfile—first build &amp; run without drowning in jargon.</p>
+        </a>
+
+        <a class="bento__card bento__card--third" href="/blog/git-basics-for-students/">
+          <p class="bento__date">Mar 22</p>
+          <h2 class="bento__title">Git: the smallest useful slice</h2>
+          <p class="bento__excerpt">init → commit → push → pull.</p>
+        </a>
+
+        <a class="bento__card bento__card--third" href="/blog/what-is-the-cloud/">
+          <p class="bento__date">Mar 15</p>
+          <h2 class="bento__title">What is “the cloud”?</h2>
+          <p class="bento__excerpt">Mental model: rent, regions, shared responsibility.</p>
+        </a>
+
+        <a class="bento__card bento__card--third" href="/blog/linux-terminal-ten-commands/">
+          <p class="bento__date">Mar 8</p>
+          <h2 class="bento__title">Ten terminal commands</h2>
+          <p class="bento__excerpt">Muscle memory before mastery.</p>
+        </a>
+
+        <a class="bento__card bento__card--full" href="/blog/welcome/">
+          <p class="bento__date">Jan 22, 2025</p>
+          <h2 class="bento__title">Welcome to sathiyancloud</h2>
+          <p class="bento__excerpt">How we’ll pace the Classroom to Cloud journey—fundamentals over hype.</p>
+        </a>
+      </div>
     </div>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer__grid">
+    <div class="shell footer__grid">
       <div>
         <strong>sathiyancloud</strong>
-        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+        <span class="footer__tag">Classroom to Cloud · Sathiyan</span>
       </div>
       <div class="footer__links">
-        <a href="/blog/">Blog</a>
+        <a href="/blog/">Journal</a>
         <a href="/contact/">Contact</a>
         <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="/feed.xml">RSS</a>
       </div>
-      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+      <p class="footer__copy">© <span class="js-year"></span> · <a href="https://www.sathiyancloud.in/">sathiyancloud.in</a></p>
     </div>
   </footer>
   <script src="/assets/js/main.js" defer></script>

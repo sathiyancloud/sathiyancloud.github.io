@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A simple mental model for cloud computing: on-demand resources, regions, shared responsibility, and free-tier caution.">
   <title>What is the cloud? · sathiyancloud</title>
+  <meta name="theme-color" content="#090807">
+  <link rel="canonical" href="https://www.sathiyancloud.in/blog/what-is-the-cloud/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
     (function () {
@@ -20,12 +21,11 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="bg-lines" aria-hidden="true"></div>
-  <div class="blob blob--a" aria-hidden="true"></div>
-  <div class="blob blob--b" aria-hidden="true"></div>
+  <div class="mesh" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-    <div class="container site-header__inner">
+    <div class="shell site-header__inner">
       <a class="brand" href="/">
         <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
         <span class="brand__text">
@@ -50,14 +50,15 @@
     </div>
   </header>
 
-  <main id="main" class="page">
-    <article class="container prose">
-      <header class="article-head">
+  <main id="main" class="page page--post">
+    <header class="article-cover">
+      <div class="shell">
         <p class="post-meta">March 15, 2026 · Sathiyan</p>
         <h1>What is “the cloud”? A simple mental model</h1>
         <p class="subtitle">Someone else’s computer—with APIs, bills, and shared responsibility</p>
-      </header>
-
+      </div>
+    </header>
+    <article class="shell prose article-content">
       <p>If you are new to IT, “cloud” can sound like magic. In practice, it is mostly <strong>computers and networks you rent</strong>, accessed through a browser or API, run by providers like AWS, Azure, or Google Cloud.</p>
 
       <h2>The mental model in one paragraph</h2>
@@ -78,12 +79,12 @@
 
       <p><em>Next step: create a practice account and spin up the smallest Linux VM you can—then log in with SSH.</em></p>
 
-      <a class="back" href="/blog/">← Back to blog</a>
+      <a class="back" href="/blog/">← Back to journal</a>
     </article>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer__grid">
+    <div class="shell footer__grid">
       <div>
         <strong>sathiyancloud</strong>
         <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
