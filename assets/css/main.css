@@ -882,6 +882,20 @@ main { position: relative; z-index: 1; }
   margin-top: 0.35rem;
 }
 
+/* .prose a { color: accent } must not override button labels on accent fill */
+.prose a.btn--primary,
+.prose a.btn--primary:hover {
+  color: #042f2e;
+}
+
+.prose a.btn--ghost {
+  color: var(--ink);
+}
+
+.prose a.btn--ghost:hover {
+  color: var(--accent);
+}
+
 .cta {
   margin: 1.5rem 0;
   padding: 1.25rem 1.5rem;
