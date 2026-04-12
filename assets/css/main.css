@@ -69,7 +69,7 @@ body {
 }
 .skip-link:focus { left: 0.75rem; }
 
-/* Fluid horizontal padding — no narrow “Jekyll box” */
+/* Fluid horizontal padding — no narrow content column */
 .shell {
   width: 100%;
   max-width: 1200px;
