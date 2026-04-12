@@ -1,17 +1,33 @@
-title: SathiyanCloud
-description: Building a clear learning bridge from fundamentals to real-world Cloud & DevOps for students starting their careers in IT.
+title: sathiyancloud
+tagline: Classroom to Cloud
+description: >-
+  Practical Cloud & DevOps learning for students—fundamentals, labs, and career context.
+  An initiative by Sathiyan to bridge classroom theory with real-world IT skills.
 url: "https://sathiyancloud.github.io"
-baseurl: "/"
-author: Sathiyan
+baseurl: ""
+author:
+  name: Sathiyan
+  initiative: Classroom to Cloud
+  linkedin: "https://www.linkedin.com/in/sathiyancloud"
 
-# Build settings
+# Used by jekyll-seo-tag for sameAs / social metadata
+social:
+  name: Sathiyan
+  links:
+    - "https://www.linkedin.com/in/sathiyancloud"
+
 markdown: kramdown
 permalink: /blog/:title/
 
-# Theme (using minima as base, but we override with custom CSS)
-theme: minima
+# GitHub Pages–supported plugins (no Node build required)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Navigation
+feed:
+  path: feed.xml
+
 navigation:
   - title: Home
     url: /
@@ -23,3 +39,14 @@ navigation:
     url: /contact
   - title: Session
     url: /session
+
+exclude:
+  - archive
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: Sathiyan

@@ -1,0 +1,23 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+vendor/
+.bundle/
+.bundle-user/
+.bundle-cache/
+
+# Ruby / Bundler
+*.gem
+.ruby-version
+.ruby-gemset
+
+# OS & editors
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Logs
+*.log

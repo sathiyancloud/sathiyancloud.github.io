@@ -1,33 +1,47 @@
 ---
 layout: default
 title: About
+description: >-
+  Why sathiyancloud exists: bridging college learning and Cloud & DevOps practice,
+  with Sathiyan—guided by fundamentals, hands-on labs, and honest career context.
 ---
 
-# About SathiyanCloud
+# About sathiyancloud
 
-SathiyanCloud is a small learning initiative focused on helping students understand **Cloud and DevOps fundamentals** in a simple, practical way.
+**sathiyancloud** is a small learning initiative with one north star: help students move from **classroom theory** to **cloud-era practice** in a way that is clear, ethical, and genuinely useful on the job market.
 
-I’m **Sathiyan**, a Cloud & DevOps engineer by profession.  
-I come from a non-CS background and moved into IT through **self-learning, hands-on practice, and real problem solving**. Along the way, **guidance from mentors helped me choose the right learning path**.
+I’m **Sathiyan**, a Cloud &amp; DevOps engineer. I come from a **non‑CS background** and found my way into IT through self‑study, relentless practice, and **mentors who helped me choose a sane learning path** when everything online claimed to be “the only roadmap.”
 
-Like many students, I started with confusion and too many options. SathiyanCloud was created to **bridge the gap between college education and real-world IT skills**, especially for students from **colleges with limited industry exposure**.
+If you’ve felt that mix of curiosity and overwhelm—too many tools, too many opinions—this site is written for you.
 
-## What SathiyanCloud Is About
+## What “Classroom to Cloud” means
 
-This initiative is not about shortcuts or hype.  
-The focus is on:
+It is not a slogan about speed. It is about **continuity**:
 
-- Strong fundamentals  
-- Understanding different IT roles  
-- Hands-on learning  
-- Building confidence step by step  
+- from lecture concepts to **commands you can run**
+- from buzzwords to **roles that actually hire**
+- from isolated tutorials to **stories about how teams ship**
 
-## Learning Approach
+The focus is especially strong for students from **colleges with limited industry exposure**, where the gap between syllabus and interview can feel unbridgeable.
 
-Sessions can be conducted in **Tamil or English**, based on student comfort.
+## What this is (and is not)
 
-I’m still learning myself — because in IT, learning never really stops.  
-My role here is to **simplify concepts, guide learning, and share practical experience**.
+**This is not** a promise of shortcuts, guaranteed jobs, or hype-driven tool chasing.
+
+**This is** a place for:
+
+- strong fundamentals (Linux, networking, automation mindset)
+- hands-on labs you can repeat on modest hardware
+- career context explained in plain language
+- patience: learning in IT is a long game
+
+## Language & sessions
+
+Sessions can be conducted in **Tamil or English**, depending on what helps students think clearly. The goal is understanding—not performance.
+
+## Still learning
+
+I’m still learning too; in IT, that never really stops. My role here is to **simplify**, **guide practice**, and **share what real projects taught me**—not to pose as someone who knows everything.
 
 ---
 

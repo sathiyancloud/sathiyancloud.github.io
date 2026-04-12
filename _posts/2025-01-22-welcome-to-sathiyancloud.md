@@ -1,40 +1,37 @@
 ---
-layout: default
-title: "Welcome to SathiyanCloud"
+title: "Welcome to sathiyancloud"
+subtitle: Starting the Classroom to Cloud journey
 date: 2025-01-22
+description: >-
+  The first note from sathiyancloud: fundamentals over hype, pace over panic,
+  and a learning path for Cloud & DevOps beginners.
 ---
 
-# Welcome to SathiyanCloud
+If you are reading this, you have already done something brave: you showed up.
 
-If you're reading this, you've taken the first step. That takes courage.
+Cloud and DevOps can feel loud—too many tools, too many “official roadmaps,” and too many opinions disguised as facts.
 
-Cloud and DevOps can feel overwhelming when you're starting out. There are so many tools, so many opinions, and so many paths that claim to be "the right one."
+Here is what I hold as true: **there is no single right path**, but there *are* fundamentals that pay off no matter which tools you pick later.
 
-Here's what I believe: **there is no single right path — but there are fundamentals that matter regardless of which direction you choose.**
+## What we will cover
 
-## What We'll Cover
+Over time you will find notes on:
 
-In the coming weeks and months, you'll find posts on:
+- **Linux essentials** — the substrate most of the cloud runs on
+- **Networking basics** — how data actually moves
+- **Containers & Docker** — packaging apps the modern way
+- **Kubernetes fundamentals** — orchestration without the mystique
+- **Cloud platforms** — how to think in services, not logos
+- **CI/CD** — automation with good taste
+- **Career context** — resumes, stories, and what teams actually look for
 
-- **Linux essentials** — the operating system that runs most of the cloud
-- **Networking basics** — understanding how data moves
-- **Containers and Docker** — packaging applications the modern way
-- **Kubernetes fundamentals** — orchestrating containers at scale
-- **Cloud platforms** — AWS, Azure, GCP and when to use what
-- **CI/CD pipelines** — automating your deployments
-- **Career guidance** — resumes, interviews, and what hiring managers look for
+## Pace
 
-## A Note on Pace
+This is not a bootcamp with a ticking clock. Take your time, redo labs, and ask questions when you are stuck. The goal is **understanding that survives the next hype cycle**.
 
-This isn't a bootcamp. There's no timer counting down.
+## Next step
 
-Take your time with each concept. Practice the labs. Ask questions when you're stuck. The goal isn't to rush through content — it's to build understanding that stays with you.
-
-## What's Next
-
-Start with the basics. If you're not comfortable with the Linux command line yet, that's where we'll begin.
-
-And remember: every expert you admire was once exactly where you are now.
+If the command line still feels foreign, that is the right place to begin. Everything else stacks on curiosity and repetition.
 
 ---
 

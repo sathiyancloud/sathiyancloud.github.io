@@ -1,29 +1,28 @@
 ---
 layout: default
 title: Contact
+description: Reach out to sathiyancloud—questions about learning paths, topics, or collaboration.
 ---
 
 # Contact
 
-Have a question about your learning path? Want to suggest a topic? I'd love to hear from you.
+Have a question about your learning path? Want to suggest a topic? I read messages personally.
 
-## Get in Touch
+<div class="cta-strip" style="margin-top:1.5rem;">
+  <p><strong>Prefer a form?</strong> Use the link below—no account required.</p>
+  <a class="btn btn--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdbcg6miSgP6Q5Cyij8lTRtuQudMujKfeH0oxFwqMdWYtm1jg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Send a message</a>
+</div>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSdbcg6miSgP6Q5Cyij8lTRtuQudMujKfeH0oxFwqMdWYtm1jg/viewform?usp=dialog" class="btn">Send a Message</a>
+## What to expect
 
-## What to Expect
+- I read every message personally.
+- Response time varies with my schedule.
+- Common questions sometimes become blog posts so others benefit too.
 
-- I read every message personally
-- Response time varies depending on my schedule
-- For common questions, I may write a blog post to help others with similar queries
+## Before you write
 
-## Before Reaching Out
-
-You might find your answer in:
-
-- The [Blog](/blog) for tutorials and explanations
-- The [About](/about) page for background on the learning approach
+You might find answers in the [Blog]({{ '/blog' | relative_url }}) or the [About]({{ '/about' | relative_url }}) page first.
 
 ---
 
-*Thank you for being part of this learning community.*
+*Thank you for learning out loud.*
