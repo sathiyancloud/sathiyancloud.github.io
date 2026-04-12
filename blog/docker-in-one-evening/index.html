@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Docker for beginners: images vs containers, Dockerfile, build and run, and why containers matter for Cloud &amp; DevOps.">
+  <title>Docker in one evening · sathiyancloud</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      try {
+        var k = "sc-theme", s = localStorage.getItem(k), d = document.documentElement;
+        if (s === "light" || s === "dark") d.setAttribute("data-theme", s);
+        else if (window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches) d.setAttribute("data-theme", "light");
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-lines" aria-hidden="true"></div>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__title">sathiyan<b class="brand__accent">cloud</b></span>
+          <span class="brand__tag">Classroom to Cloud</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link is-active" href="/blog/">Blog</a>
+        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link" href="/session/">Session</a>
+      </nav>
+      <div class="header-tools">
+        <a class="btn-link" href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container prose">
+      <header class="article-head">
+        <p class="post-meta">March 29, 2026 · Sathiyan</p>
+        <h1>Docker in one evening (without the hype)</h1>
+        <p class="subtitle">A container packages your app and its dependencies—predictably</p>
+      </header>
+
+      <p><strong>Docker</strong> helps you package an application so it runs <strong>the same way</strong> on your laptop, a teammate’s laptop, and (later) a server—because the package includes dependencies and runtime assumptions.</p>
+
+      <h2>Words that confuse beginners (made simple)</h2>
+      <ul>
+        <li><strong>Image</strong> — A blueprint: filesystem layers + how to start the app.</li>
+        <li><strong>Container</strong> — A running instance created from an image.</li>
+        <li><strong>Dockerfile</strong> — A text recipe that describes how to build an image.</li>
+      </ul>
+
+      <h2>The smallest hands-on path</h2>
+      <ol>
+        <li>Install Docker Desktop (or Docker Engine on Linux) from official docs.</li>
+        <li>Run a tiny public image:</li>
+      </ol>
+      <pre><code>docker run --rm hello-world</code></pre>
+      <ol start="3">
+        <li>Create a folder with a file named <code>Dockerfile</code>:</li>
+      </ol>
+      <pre><code>FROM alpine:3.20
+CMD ["echo", "Hello from my first image"]</code></pre>
+      <ol start="4">
+        <li>Build and run:</li>
+      </ol>
+      <pre><code>docker build -t my-first .
+docker run --rm my-first</code></pre>
+
+      <h2>Why this connects to Cloud</h2>
+      <p>Cloud services often run <strong>containers</strong> (directly or through Kubernetes). If you understand “build once, run many times,” you understand a big part of modern deployments.</p>
+
+      <h2>A practical warning</h2>
+      <p>Containers are not automatic security. Treat them like processes: <strong>least privilege</strong>, patch base images, and never put secrets in images.</p>
+
+      <p><em>Next step: containerize a tiny static website or a one-file Python/Node app and run it locally.</em></p>
+
+      <a class="back" href="/blog/">← Back to blog</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>sathiyancloud</strong>
+        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+      </div>
+      <div class="footer__links">
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

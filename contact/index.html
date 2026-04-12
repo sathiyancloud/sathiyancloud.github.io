@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Page not found — sathiyancloud.">
-  <title>Page not found · sathiyancloud</title>
+  <meta name="description" content="Contact sathiyancloud — questions about learning paths, topics, or collaboration.">
+  <meta name="theme-color" content="#0c0a09">
+  <title>Contact · sathiyancloud</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
@@ -19,6 +22,7 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="bg-lines" aria-hidden="true"></div>
   <div class="blob blob--a" aria-hidden="true"></div>
   <div class="blob blob--b" aria-hidden="true"></div>
@@ -39,7 +43,7 @@
         <a class="nav-link" href="/">Home</a>
         <a class="nav-link" href="/blog/">Blog</a>
         <a class="nav-link" href="/about/">About</a>
-        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link is-active" href="/contact/">Contact</a>
         <a class="nav-link" href="/session/">Session</a>
       </nav>
       <div class="header-tools">
@@ -50,14 +54,26 @@
   </header>
 
   <main id="main" class="page">
-    <div class="container miss">
-      <p class="post-meta">404</p>
-      <h1>This page drifted into the void</h1>
-      <p style="color:var(--muted); max-width:40ch; margin-inline:auto;">The link may be old or the page moved. Try home or the blog.</p>
-      <p style="margin-top:1.5rem;">
-        <a class="btn btn--primary" href="/">Back home</a>
-        <a class="btn btn--ghost" href="/blog/">Read the blog</a>
-      </p>
+    <div class="container prose">
+      <h1>Contact</h1>
+      <p>Have a question about your learning path? Want to suggest a topic? I read messages personally.</p>
+
+      <div class="cta" style="margin-top:1.5rem;">
+        <p><strong>Prefer a form?</strong> Use the link—no account required.</p>
+        <a class="btn btn--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdbcg6miSgP6Q5Cyij8lTRtuQudMujKfeH0oxFwqMdWYtm1jg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer">Send a message</a>
+      </div>
+
+      <h2>What to expect</h2>
+      <ul>
+        <li>I read every message personally.</li>
+        <li>Response time varies with my schedule.</li>
+        <li>Common questions sometimes become blog posts so others benefit too.</li>
+      </ul>
+
+      <h2>Before you write</h2>
+      <p>You might find answers in the <a href="/blog/">Blog</a> or <a href="/about/">About</a> page first.</p>
+
+      <p><em>Thank you for learning out loud.</em></p>
     </div>
   </main>
 
@@ -70,9 +86,10 @@
       <div class="footer__links">
         <a href="/blog/">Blog</a>
         <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="/feed.xml">RSS</a>
       </div>
-      <p class="footer__copy">© <span class="js-year"></span> Sathiyan.</p>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
     </div>
   </footer>
   <script src="/assets/js/main.js" defer></script>

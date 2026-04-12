@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Networking basics for cloud learners: IP, DNS, ports, TCP vs UDP, SSH, and a simple troubleshooting mindset.">
+  <title>Networking basics for cloud learners · sathiyancloud</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      try {
+        var k = "sc-theme", s = localStorage.getItem(k), d = document.documentElement;
+        if (s === "light" || s === "dark") d.setAttribute("data-theme", s);
+        else if (window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches) d.setAttribute("data-theme", "light");
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-lines" aria-hidden="true"></div>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__title">sathiyan<b class="brand__accent">cloud</b></span>
+          <span class="brand__tag">Classroom to Cloud</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link is-active" href="/blog/">Blog</a>
+        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link" href="/session/">Session</a>
+      </nav>
+      <div class="header-tools">
+        <a class="btn-link" href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container prose">
+      <header class="article-head">
+        <p class="post-meta">April 5, 2026 · Sathiyan</p>
+        <h1>Networking basics every cloud learner should know</h1>
+        <p class="subtitle">IP, DNS, ports, HTTP—enough to debug real issues</p>
+      </header>
+
+      <p>Cloud is not “floating compute.” It is <strong>computers on networks</strong> with rules. A little networking vocabulary prevents a lot of confusion later.</p>
+
+      <h2>IP addresses and DNS</h2>
+      <ul>
+        <li>An <strong>IP address</strong> identifies a host on a network (like a street address).</li>
+        <li><strong>DNS</strong> maps human names (<code>example.com</code>) to addresses. When DNS is wrong, everything looks broken even if the server is fine.</li>
+      </ul>
+
+      <h2>Ports and services</h2>
+      <p>A <strong>port</strong> is not a cable—it is a number that helps the operating system route traffic to the right program. Example: <strong>22</strong> often carries SSH, <strong>443</strong> often carries HTTPS.</p>
+      <p>When something “does not connect,” beginners learn to ask: <strong>right host? right port? firewall? service running?</strong></p>
+
+      <h2>TCP vs UDP (one sentence each)</h2>
+      <ul>
+        <li><strong>TCP</strong> — Reliable delivery (web browsing, SSH, many APIs).</li>
+        <li><strong>UDP</strong> — Fast, “best effort” (many real-time scenarios). You do not need details on day one—just know they exist.</li>
+      </ul>
+
+      <h2>Why SSH matters for learners</h2>
+      <p><strong>SSH</strong> lets you remotely access a Linux shell securely. Most early cloud labs are: create VM → <strong>SSH in</strong> → run commands.</p>
+
+      <h2>A tiny troubleshooting mindset</h2>
+      <p>When a connection fails, split the problem:</p>
+      <ol>
+        <li>Can you <strong>resolve</strong> the name? (<code>ping</code> / <code>dig</code> / <code>nslookup</code>—tools vary by OS)</li>
+        <li>Can you reach the <strong>host</strong> at all?</li>
+        <li>Is the <strong>port</strong> open and listening?</li>
+        <li>Is an <strong>application</strong> bound correctly (often <code>0.0.0.0</code> vs <code>127.0.0.1</code>)?</li>
+      </ol>
+      <p>You will not master this in a day. You <strong>will</strong> recognize these questions in interviews and incidents.</p>
+
+      <p><em>Next step: from your laptop, trace what happens when you open an HTTPS site (conceptually: DNS → TCP 443 → TLS → HTTP).</em></p>
+
+      <a class="back" href="/blog/">← Back to blog</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>sathiyancloud</strong>
+        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+      </div>
+      <div class="footer__links">
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Session resources for sathiyancloud college workshops — links, feedback, and student offers.">
+  <meta name="theme-color" content="#0c0a09">
+  <title>Session · sathiyancloud</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      try {
+        var k = "sc-theme", s = localStorage.getItem(k), d = document.documentElement;
+        if (s === "light" || s === "dark") d.setAttribute("data-theme", s);
+        else if (window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches) d.setAttribute("data-theme", "light");
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-lines" aria-hidden="true"></div>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__title">sathiyan<b class="brand__accent">cloud</b></span>
+          <span class="brand__tag">Classroom to Cloud</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/blog/">Blog</a>
+        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link is-active" href="/session/">Session</a>
+      </nav>
+      <div class="header-tools">
+        <a class="btn-link" href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="container prose">
+      <h1>Session resources</h1>
+      <p>These materials are shared during <strong>live college sessions</strong>. Please keep links within your cohort unless noted otherwise.</p>
+
+      <h2>Live session link</h2>
+      <blockquote>
+        <p>The link is enabled only during scheduled sessions and disabled afterward—check your college group or host for the current room.</p>
+      </blockquote>
+
+      <h2>Feedback</h2>
+      <p>Honest feedback helps improve the next session for everyone.</p>
+      <p><a class="btn btn--primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdq_ay5dhKMEcoMcoLNAJYmxcezUSsZOfMgK6lBDIKJuubmBA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Submit feedback</a></p>
+
+      <h2>Learning commitment</h2>
+      <p>This form is for students who want to pursue Cloud / DevOps in a structured way and can protect consistent time for practice.</p>
+      <p><em>Replace the placeholder below with your live form URL when ready.</em></p>
+      <p><a class="btn btn--ghost" href="#">Apply for next steps</a></p>
+      <blockquote>
+        <p>Only fill this if you are serious about learning—consistency beats intensity.</p>
+      </blockquote>
+
+      <h2>Useful tools &amp; student offers</h2>
+      <ul>
+        <li><strong>GitHub Student Developer Pack</strong> — <a href="https://education.github.com/pack" target="_blank" rel="noopener noreferrer">education.github.com/pack</a></li>
+        <li><strong>AWS Free Tier</strong> — <a href="https://aws.amazon.com/free" target="_blank" rel="noopener noreferrer">aws.amazon.com/free</a></li>
+        <li><strong>LinkedIn</strong> — <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">linkedin.com</a></li>
+      </ul>
+
+      <h2>Learning note</h2>
+      <p>There are many paths in IT. Start with fundamentals, explore slowly, and choose based on interest—not hype. <strong>Consistency matters more than speed.</strong></p>
+      <p>— <strong>Sathiyan</strong></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>sathiyancloud</strong>
+        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+      </div>
+      <div class="footer__links">
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

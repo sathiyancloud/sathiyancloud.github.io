@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Page not found — sathiyancloud.">
-  <title>Page not found · sathiyancloud</title>
+  <meta name="description" content="Blog — tutorials and notes for Cloud &amp; DevOps beginners. sathiyancloud.">
+  <meta name="theme-color" content="#0c0a09">
+  <title>Blog · sathiyancloud</title>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/main.css">
   <script>
@@ -19,6 +22,7 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="bg-lines" aria-hidden="true"></div>
   <div class="blob blob--a" aria-hidden="true"></div>
   <div class="blob blob--b" aria-hidden="true"></div>
@@ -37,7 +41,7 @@
       </button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a class="nav-link" href="/">Home</a>
-        <a class="nav-link" href="/blog/">Blog</a>
+        <a class="nav-link is-active" href="/blog/">Blog</a>
         <a class="nav-link" href="/about/">About</a>
         <a class="nav-link" href="/contact/">Contact</a>
         <a class="nav-link" href="/session/">Session</a>
@@ -50,14 +54,42 @@
   </header>
 
   <main id="main" class="page">
-    <div class="container miss">
-      <p class="post-meta">404</p>
-      <h1>This page drifted into the void</h1>
-      <p style="color:var(--muted); max-width:40ch; margin-inline:auto;">The link may be old or the page moved. Try home or the blog.</p>
-      <p style="margin-top:1.5rem;">
-        <a class="btn btn--primary" href="/">Back home</a>
-        <a class="btn btn--ghost" href="/blog/">Read the blog</a>
-      </p>
+    <div class="container prose">
+      <h1>Blog</h1>
+      <p>Practical notes for learners who are early in their Cloud &amp; DevOps journey—short reads, honest pacing.</p>
+
+      <ul class="post-list">
+        <li>
+          <p class="post-meta">April 5, 2026</p>
+          <h2><a href="/blog/networking-basics/">Networking basics every cloud learner should know</a></h2>
+          <p class="post-excerpt">IP, DNS, ports, SSH—enough vocabulary to debug real issues.</p>
+        </li>
+        <li>
+          <p class="post-meta">March 29, 2026</p>
+          <h2><a href="/blog/docker-in-one-evening/">Docker in one evening (without the hype)</a></h2>
+          <p class="post-excerpt">Images, containers, Dockerfile—your first build and run.</p>
+        </li>
+        <li>
+          <p class="post-meta">March 22, 2026</p>
+          <h2><a href="/blog/git-basics-for-students/">Git basics for students (the smallest useful slice)</a></h2>
+          <p class="post-excerpt">init, status, commit, push, pull—without drowning in commands.</p>
+        </li>
+        <li>
+          <p class="post-meta">March 15, 2026</p>
+          <h2><a href="/blog/what-is-the-cloud/">What is “the cloud”? A simple mental model</a></h2>
+          <p class="post-excerpt">On-demand resources, regions, shared responsibility, free-tier caution.</p>
+        </li>
+        <li>
+          <p class="post-meta">March 8, 2026</p>
+          <h2><a href="/blog/linux-terminal-ten-commands/">Linux terminal: ten commands to get comfortable</a></h2>
+          <p class="post-excerpt">pwd, ls, cd, mkdir, and friends—muscle memory first.</p>
+        </li>
+        <li>
+          <p class="post-meta">January 22, 2025</p>
+          <h2><a href="/blog/welcome/">Welcome to sathiyancloud</a></h2>
+          <p class="post-excerpt">Fundamentals over hype—how we’ll pace the Classroom to Cloud journey.</p>
+        </li>
+      </ul>
     </div>
   </main>
 
@@ -70,9 +102,10 @@
       <div class="footer__links">
         <a href="/blog/">Blog</a>
         <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <a href="/feed.xml">RSS</a>
       </div>
-      <p class="footer__copy">© <span class="js-year"></span> Sathiyan.</p>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
     </div>
   </footer>
   <script src="/assets/js/main.js" defer></script>

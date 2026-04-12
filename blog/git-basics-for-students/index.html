@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Git basics for students: init, status, add, commit, log, remote, push, pull—explained without jargon overload.">
+  <title>Git basics for students · sathiyancloud</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      try {
+        var k = "sc-theme", s = localStorage.getItem(k), d = document.documentElement;
+        if (s === "light" || s === "dark") d.setAttribute("data-theme", s);
+        else if (window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches) d.setAttribute("data-theme", "light");
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-lines" aria-hidden="true"></div>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__title">sathiyan<b class="brand__accent">cloud</b></span>
+          <span class="brand__tag">Classroom to Cloud</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link is-active" href="/blog/">Blog</a>
+        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link" href="/session/">Session</a>
+      </nav>
+      <div class="header-tools">
+        <a class="btn-link" href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container prose">
+      <header class="article-head">
+        <p class="post-meta">March 22, 2026 · Sathiyan</p>
+        <h1>Git basics for students (the smallest useful slice)</h1>
+        <p class="subtitle">Track changes, collaborate, and build a habit you will use everywhere</p>
+      </header>
+
+      <p><strong>Git</strong> is a version control tool. <strong>GitHub/GitLab/Bitbucket</strong> are places to host Git repositories and collaborate. You can learn Git locally first—no cloud account required.</p>
+
+      <h2>Why this matters for Cloud &amp; DevOps</h2>
+      <p>Almost every team stores infrastructure and application code in Git. Interviews often assume you can <strong>clone</strong>, <strong>branch</strong>, <strong>commit</strong>, and <strong>open a pull request</strong> (or merge request).</p>
+
+      <h2>The smallest workflow that still counts</h2>
+      <p>Inside a project folder:</p>
+      <ol>
+        <li><strong><code>git init</code></strong> — Start tracking a folder (only once per project).</li>
+        <li><strong><code>git status</code></strong> — See what changed.</li>
+        <li><strong><code>git add .</code></strong> — Stage changes (start with “stage everything” while learning; learn finer control next).</li>
+        <li><strong><code>git commit -m "Describe the change"</code></strong> — Save a snapshot with a message.</li>
+        <li><strong><code>git log --oneline</code></strong> — See history.</li>
+      </ol>
+
+      <h2>Working with a remote (GitHub example)</h2>
+      <p>After you create an empty repository online:</p>
+      <pre><code>git remote add origin &lt;your-repo-url&gt;
+git branch -M main
+git push -u origin main</code></pre>
+      <p>Later, when you work on another machine:</p>
+      <pre><code>git pull</code></pre>
+
+      <h2>Good commit messages (beginner rule)</h2>
+      <p>Finish this sentence: “This commit <strong>…</strong>” Examples: “add README,” “fix typo in lab steps,” “create Dockerfile.”</p>
+
+      <h2>Common beginner pain</h2>
+      <p>Merge conflicts. They are normal. The goal is not to avoid them forever—it is to <strong>read the conflict markers</strong>, understand what changed, and resolve calmly.</p>
+
+      <p><em>Next step: create a repo for your lab notes and commit small improvements weekly.</em></p>
+
+      <a class="back" href="/blog/">← Back to blog</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>sathiyancloud</strong>
+        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+      </div>
+      <div class="footer__links">
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

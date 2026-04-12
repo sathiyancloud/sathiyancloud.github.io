@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Beginner Linux commands—pwd, ls, cd, mkdir, touch, cat, cp, mv, rm, man—with a short practice drill.">
+  <title>Linux terminal: ten commands · sathiyancloud</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script>
+    (function () {
+      try {
+        var k = "sc-theme", s = localStorage.getItem(k), d = document.documentElement;
+        if (s === "light" || s === "dark") d.setAttribute("data-theme", s);
+        else if (window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches) d.setAttribute("data-theme", "light");
+      } catch (e) { /* ignore */ }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-lines" aria-hidden="true"></div>
+  <div class="blob blob--a" aria-hidden="true"></div>
+  <div class="blob blob--b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <img class="brand__mark" src="/assets/brand/mark.svg" width="44" height="44" alt="">
+        <span class="brand__text">
+          <span class="brand__title">sathiyan<b class="brand__accent">cloud</b></span>
+          <span class="brand__tag">Classroom to Cloud</span>
+        </span>
+      </a>
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link is-active" href="/blog/">Blog</a>
+        <a class="nav-link" href="/about/">About</a>
+        <a class="nav-link" href="/contact/">Contact</a>
+        <a class="nav-link" href="/session/">Session</a>
+      </nav>
+      <div class="header-tools">
+        <a class="btn-link" href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <button type="button" class="theme-btn" id="theme-toggle" aria-label="Toggle color theme">◐</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container prose">
+      <header class="article-head">
+        <p class="post-meta">March 8, 2026 · Sathiyan</p>
+        <h1>Linux terminal: ten commands to get comfortable</h1>
+        <p class="subtitle">A small, repeatable habit beats memorizing every flag</p>
+      </header>
+
+      <p>Most cloud and DevOps work still starts in a <strong>terminal</strong>. You do not need to know everything on day one—you need a <strong>small set of moves</strong> that you can use without thinking.</p>
+
+      <h2>Before you type</h2>
+      <ul>
+        <li><strong>Read prompts carefully.</strong> Many mistakes are copy-paste accidents.</li>
+        <li><strong>Prefer <code>man command</code></strong> (or <code>command --help</code>) over guessing flags.</li>
+      </ul>
+
+      <h2>Ten commands to practice today</h2>
+      <ol>
+        <li><strong><code>pwd</code></strong> — “Where am I?” Prints your current folder.</li>
+        <li><strong><code>ls</code></strong> — “What is here?” List files. Try <code>ls -la</code> once you are comfortable.</li>
+        <li><strong><code>cd</code></strong> — Change directory. <code>cd ..</code> goes up one level; <code>cd ~</code> goes home.</li>
+        <li><strong><code>mkdir</code></strong> — Make a folder. Example: <code>mkdir practice</code>.</li>
+        <li><strong><code>touch</code></strong> — Create an empty file. Example: <code>touch notes.txt</code>.</li>
+        <li><strong><code>cat</code></strong> — Print a small file to the screen. Example: <code>cat notes.txt</code>.</li>
+        <li><strong><code>cp</code></strong> — Copy. Example: <code>cp notes.txt notes-backup.txt</code>.</li>
+        <li><strong><code>mv</code></strong> — Move or rename. Example: <code>mv notes.txt diary.txt</code>.</li>
+        <li><strong><code>rm</code></strong> — Delete. <strong>Be careful:</strong> <code>rm</code> does not send files to a recycle bin.</li>
+        <li><strong><code>man</code></strong> — Manual pages. Example: <code>man ls</code>.</li>
+      </ol>
+
+      <h2>A five-minute drill</h2>
+      <p>Create a folder, add a file, copy it, rename it, list the folder, then remove only what you created—slowly and on purpose.</p>
+
+      <h2>What “good” looks like</h2>
+      <p>You are not racing. You are building <strong>muscle memory</strong> so that later lessons (permissions, processes, services) feel familiar instead of scary.</p>
+
+      <p><em>Next step: learn what <code>ls -la</code> is really telling you (permissions come next in most learning paths).</em></p>
+
+      <a class="back" href="/blog/">← Back to blog</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>sathiyancloud</strong>
+        <span class="footer__tag">Classroom to Cloud · by Sathiyan</span>
+      </div>
+      <div class="footer__links">
+        <a href="/blog/">Blog</a>
+        <a href="/contact/">Contact</a>
+        <a href="https://www.linkedin.com/in/sathiyancloud" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="/feed.xml">RSS</a>
+      </div>
+      <p class="footer__copy">© <span class="js-year"></span> Sathiyan. Static HTML — fast &amp; GitHub Pages friendly.</p>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>
